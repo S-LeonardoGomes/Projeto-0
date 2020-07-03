@@ -23,10 +23,15 @@
 #logar, #cadastrar{
     float: right;
     top: 10px;
-    padding: 8px 25px;
+    padding: 8px 0px;
     margin: 0px 15px;
     border: 2px solid rgb(8, 231, 8);
     border-radius: 40px;
+}
+
+#logar:hover, #cadastrar:hover{
+    background-color: rgb(8, 231, 8);
+    color: black;
 }
 
 #area-texto{
@@ -51,3 +56,19 @@
 #area-texto p{
     margin: 0px 30px;
 }
+
+/* -------- Início formatação de links --------- */
+a{
+    text-decoration: none;
+    width: 10px;
+    padding: 8px 25px;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover{
+    color:black;
+}
+/* -------- Fim formatação de links --------- */
