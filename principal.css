@@ -10,3 +10,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#logo{
+    float: left;
+}
+
+/* Área dos botões */
+a{
+    float: right;
+    display: block;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    margin: 5px 15px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+/* Fim área dos botões */
