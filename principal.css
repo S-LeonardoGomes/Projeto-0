@@ -18,10 +18,16 @@
 a{
     float: right;
     display: block;
-    border: 2px solid aqua;
+    border: 2px solid rgba(0, 255, 255, 0.507);
     border-radius: 20px;
     margin: 5px 15px;
     padding: 5px 20px;
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: rgba(0, 255, 255, 0.507);
 }
 /* Fim área dos botões */
+
