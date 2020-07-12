@@ -17,7 +17,7 @@
 }
 
 /* Área dos botões */
-a{
+.botao{
     float: right;
     display: block;
     border: 2px solid rgb(252, 132, 152);
@@ -29,9 +29,24 @@ a{
     color: black;
 }
 
-a:hover{
+.botao:hover{
     background-color: rgb(177, 19, 46);
     border-color: rgb(177, 19, 46);
+}
+
+.botao2{
+    display: block;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 160px;
+    background-color: #fff;
+    color: rgb(252, 132, 152);
+    margin: 18px auto;
+    padding: 15px;
+    
 }
 /* Fim área dos botões */
 
