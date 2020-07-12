@@ -26,12 +26,13 @@
     margin: 5px 15px;
     padding: 5px 20px;
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .botao:hover{
     background-color: #fff;
     border-color: #fff;
+    color: rgb(252, 132, 152);
 }
 
 .botao2{
@@ -48,6 +49,7 @@
     padding: 15px;
     
 }
+
 /* Fim área dos botões */
 
 
