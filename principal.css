@@ -20,8 +20,9 @@
 a{
     float: right;
     display: block;
-    border: 2px solid rgba(0, 255, 255, 0.507);
+    border: 2px solid rgb(252, 132, 152);
     border-radius: 20px;
+    background-color: rgb(252, 132, 152);
     margin: 5px 15px;
     padding: 5px 20px;
     text-decoration: none;
@@ -29,14 +30,16 @@ a{
 }
 
 a:hover{
-    background-color: rgba(0, 255, 255, 0.507);
+    background-color: rgb(177, 19, 46);
+    border-color: rgb(177, 19, 46);
 }
 /* Fim área dos botões */
 
 
 #principal{
     clear: both;
-    border: 2px solid orange;
+    background-color: rgba(252, 132, 152, 0.753);
+    border-radius: 30px;
     width:650px;
     margin-top: 150px;
 }
